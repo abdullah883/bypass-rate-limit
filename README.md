@@ -12,20 +12,21 @@ Where to look for Bugs
 
 
 
-using Null Chars
+using Null Chars:
+
 %00, %0d%0a, %09, %0C, %20, %0
 
->brute force using abc@xyz.com
+>brute force using abc@xyz.com:
 	after some time
 	you got blocked
->try abc@xyz.com%00
+>>try abc@xyz.com%00
 
 
 
 
 
 
-Host Header injection
+Host Header injection:
 Change Host:www.newsite.com
 Change Host:localhost
 Change Host:127.0.0.1
@@ -37,7 +38,7 @@ Change session on 14 req and try
 
 
 
-X-forwaded-forwaded-For
+X-forwaded-forwaded-For:
 
 X-Forwarded: <IP>
 X-Forwarded-For: <IP>
