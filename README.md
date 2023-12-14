@@ -8,6 +8,10 @@ Where to look for Bugs
 - Confirmation codes
 - Sign up
 
+
+
+
+
 using Null Chars
 %00, %0d%0a, %09, %0C, %20, %0
 
@@ -17,6 +21,10 @@ using Null Chars
 >try abc@xyz.com%00
 
 
+
+
+
+
 Host Header injection
 Change Host:www.newsite.com
 Change Host:localhost
@@ -24,6 +32,9 @@ Change Host:127.0.0.1
 Changing cookies
 For example if it blocks by 15 Requests
 Change session on 14 req and try 
+
+
+
 
 
 X-forwaded-forwaded-For
